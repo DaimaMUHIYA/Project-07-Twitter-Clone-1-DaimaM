@@ -10,7 +10,7 @@ function TweetEditor() {
       <img className='avatar' src ="src/images/profile-photo.png" alt ="Logo"/>
       
       <div className='tweet-editor-form'>
-        <input className='tweet-editor-input' type="text" placeholder='Whats happening ?'/>
+        <input className='tweet-editor-input' type="text" placeholder="What's happening ?"/>
 
         <div className='tweet-editor-buttons'>
           <img className='tweet-editor-actions' src={meta} alt="Logo" />

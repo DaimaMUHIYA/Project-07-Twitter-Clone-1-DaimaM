@@ -1,14 +1,16 @@
 import React from 'react';
 import verified from '../images/Verified.png';
 import tweetReplies from '../images/Tweet-Replies.png';
-
+import tweetRepliesRetweet from '../images/Tweet-Replies-retweet.png';
+import tweetLikes from '../images/Tweet-Likes.png';
+import tweetShares from '../images/Tweet-Shares.png';
 
 // #4. tweets.
 
-function Tweets({textContent}) {
+function Tweets({textContent, profilePhoto, tweetImage}) {
   return (
     <div className = "tweet">
-      <img className = "tweet-avatar" src = "src/images/tweet-profile-photo.png" alt = "Logo"/>
+      <img className = "tweet-avatar" src = {profilePhoto} alt = "Logo"/>
       
       <div className='tweet-content'>
 
@@ -27,6 +29,9 @@ function Tweets({textContent}) {
           
           <div className='tweet-actions'>
             <img src={tweetReplies} alt="" />
+            <img src={tweetRepliesRetweet} alt="" />
+            <img src={tweetLikes} alt="" />
+            <img src={tweetShares} alt="" />
           </div>
         </div>
       </div>
