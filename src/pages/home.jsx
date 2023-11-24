@@ -10,30 +10,39 @@ function Home() {
   const tweetsData = [
     {
       photoProfile : "src/images/tweet-profile-photo.png",
-      textContent : 'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
-      
-      images : ""
+      verified : "src/images/Verified.png",
+      tweetTextContent : 'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
+      images : null
     },
     {
-      textContent : 'Gardening boomed during the pandemic. Six Black writers share how has helped them re-establish, and reimagine, a connection to cultivation and the land.',
       photoProfile: "src/images/NY-Profile-Photo.png",
+      verified : "src/images/Verified.png",
+      tweetTextContent : 'Gardening boomed during the pandemic. Six Black writers share how has helped them re-establish, and reimagine, a connection to cultivation and the land.',
       images : "src/images/tweet-image.png"
     },
     {
-      photoProfile : "",
-      textContent : 'BIG NEWS lol jk still Twitter',
-      images : ""
+      photoProfile : "src/images/Tweeter-Profile-Photo.png",
+      verified : "src/images/Verified.png",
+      tweetTextContent : 'BIG NEWS lol jk still Twitter',
+      images : null
     },
 
     {
-      photoProfile : "",
-      textContent : 'hello litrally everyone',
-      images : ""
+      photoProfile : "src/images/Tweeter-Profile-Photo.png",
+      verified : "src/images/Verified.png",
+      tweetTextContent : 'hello litrally everyone',
+      images : null
+    },
+
+    {
+      photoProfile : "src/images/Tweeter-Profile-Photo.png",
+      tweetTextContent : 'hello litrally everyone',
+      images : null
     }
-  ]
+  ];
   
   const tweetsList = tweetsData.map((e)=>{
-    return <Tweets textContent = {e.textContent} profilePhoto= {e.photoProfile} tweetImage= {e.images}/>
+    return <Tweets tweetTextContent = {e.tweetTextContent} profilePhoto= {e.photoProfile} tweetImage= {e.images} verified= {e.verified}/>
   })
 
   return (
