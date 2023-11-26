@@ -30,14 +30,14 @@ function Home() {
       tweetImage : "src/images/tweet-image.png"
     },
     {
-      name : "Deodat Muhiya", 
-      user : "@deonimuhiya",
+      name : "Twitter", 
+      user : "@twitter",
       separator : ".",
       timeToPublish : "Oct 29.",
       photoProfile : "src/images/Tweeter-Profile-Photo.png",
       verified : "src/images/Verified.png",
-      tweetTextContent : 'BIG NEWS lol jk still Twitter',
-      tweetImage : "src/images/DeodatM.jpg"
+      tweetTextContent : 'BIG NEWS lol jk still Twitter.',
+      tweetImage : ""
     },
 
     {
@@ -47,7 +47,7 @@ function Home() {
       timeToPublish : "Oct 04.",
       photoProfile : "src/images/Tweeter-Profile-Photo.png",
       verified : "src/images/Verified.png",
-      tweetTextContent : 'hello litrally everyone',
+      tweetTextContent : 'hello litrally everyone.',
       tweetImage : ""
     },
 
@@ -58,7 +58,7 @@ function Home() {
       separator : ".",
       timeToPublish : "Oct 04.",
       photoProfile : "src/images/Tweeter-Profile-Photo.png",
-      tweetTextContent : 'hello litrally everyone',
+      tweetTextContent : 'hello litrally everyone.',
       tweetImage : ""
     }
   ];
