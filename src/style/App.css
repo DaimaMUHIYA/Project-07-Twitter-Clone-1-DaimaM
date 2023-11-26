@@ -29,6 +29,13 @@ body{
     border-bottom: 1px solid #2F3336;
 }
 
+/* ajout du style du lien "Home" */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .top-tweets {
     width: 1.5rem;
     height: auto;
