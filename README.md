@@ -15,3 +15,31 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
+
+<!-- Readme du projet-->
+
+
+# Clone Twitter
+
+## Description
+Clone Twitter est un projet qui vise à reproduire les fonctionnalités de la populaire plateforme de médias sociaux Twitter. Le projet est construit en utilisant React.js.
+
+## Fonctionnalités du premier Sprint
+- L'utilisateur peut voir une page d'accueil avec une mise en page basique comprenant un en-tête, un contenu principal et un pied de page.
+- L'utilisateur peut visualiser des tweets factices (prédéfinis) affichés sur la page.
+- L'utilisateur peut accéder à un formulaire de création de tweet (non fonctionnel pour le moment).
+
+
+## Installation
+1. Clonez le dépôt sur la machine locale.
+2. Installez Node.js et npm
+3. Naviguer vers le répertoire du projet
+4. Installez les dépendances nécessaires en utilisant `npm install`
+
+## Utilisation
+1. Démarrez le serveur de développement en utilisant `npm run dev`
+2. Acceder à la page et parcourir pour visualiser les tweets prédéfinis.
+
+## Crédits
+Ce projet a été créé par Daima.

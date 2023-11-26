@@ -4,7 +4,7 @@ import tweetReplies from '../images/Tweet-Replies.png';
 import tweetRepliesRetweet from '../images/Tweet-Replies-retweet.png';
 import tweetLikes from '../images/Tweet-Likes.png';
 import tweetShares from '../images/Tweet-Shares.png';
-import tweetImage from '../images/DeodatM.jpg';
+// import tweetImage from '../images/DeodatM.jpg';
 // import topTweet from '../images/top-tweet.png';
 
 
