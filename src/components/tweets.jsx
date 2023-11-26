@@ -21,23 +21,23 @@ function Tweets({name, user, verified, separator,timeToPublish, tweetTextContent
 
           <div className='tweet-title'>
 
-              <p className='tweet-title-author'>{name}</p>
-              <img className='tweet-title-details' src={verified} alt="" />
-              <p className='tweet-title-details'>{user}</p>
-              <p className='tweet-title-details'>{separator}</p>   
-              <p className='tweet-title-details'>{timeToPublish}</p>
+              <span className='tweet-title-author'>{name}</span>
+              <img className='tweet-title-details' src={verified}/>
+              <span className='tweet-title-details'>{user}</span>
+              <span className='tweet-title-details'>{separator}</span>   
+              <span className='tweet-title-details'>{timeToPublish}</span>
 
 
 
           </div>
-          <p className='tweet-text'>{tweetTextContent}</p>
-          <img className='tweet-image' src={tweetImage} alt="" />
+          <span className='tweet-text'>{tweetTextContent}</span>
+          <img className='tweet-image' src={tweetImage}/>
           
           <div className='tweet-actions'>
-            <img src={tweetReplies} alt="" />
-            <img src={tweetRepliesRetweet} alt="" />
-            <img src={tweetLikes} alt="" />
-            <img src={tweetShares} alt="" />
+            <img className='tweet-action' src={tweetReplies}/>
+            <img className='tweet-action' src={tweetRepliesRetweet}/>
+            <img className='tweet-action' src={tweetLikes}/>
+            <img className='tweet-action' src={tweetShares}/>
           </div>
         </div>
       </div>

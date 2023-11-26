@@ -17,7 +17,7 @@ function Home() {
       photoProfile : "src/images/tweet-profile-photo.png",
       verified : "src/images/Verified.png",
       tweetTextContent : 'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
-      tweetImage : null
+      tweetImage : ""
     },
     {
       name : "The New York Times",
@@ -48,7 +48,7 @@ function Home() {
       photoProfile : "src/images/Tweeter-Profile-Photo.png",
       verified : "src/images/Verified.png",
       tweetTextContent : 'hello litrally everyone',
-      tweetImage : null
+      tweetImage : ""
     },
 
     {
@@ -59,7 +59,7 @@ function Home() {
       timeToPublish : "Oct 04.",
       photoProfile : "src/images/Tweeter-Profile-Photo.png",
       tweetTextContent : 'hello litrally everyone',
-      tweetImage : null
+      tweetImage : ""
     }
   ];
   
