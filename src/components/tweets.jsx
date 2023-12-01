@@ -1,43 +1,53 @@
-import React from 'react';
-import buttonReplies from '../images/Buton-Replies.png';
-import buttonRetweet from '../images/Buton-Retweet.png';
-import buttonLike from '../images/Buton-Like.png';
-import tweetShares from '../images/Tweet-Shares.png';
+import React from "react";
+import buttonReplies from "../images/Button-Comment.svg";
+import buttonRetweet from "../images/Button-Retweet.svg";
+import buttonLike from "../images/Button-Likes.svg";
+import tweetShares from "../images/Button-Shares.svg";
 
 // #4. tweets.
 
-function Tweets({name, user, verified, separator,timeToPublish, tweetTextContent, profilePhoto, tweetImage,}) {
+function Tweets({ tweet }) {
   return (
-    <div className = "tweet">
-      <img className = "tweet-avatar" src = {profilePhoto} alt = "Logo"/>
-      
-      <div className='tweet-content'>
+    <div className="tweet">
+      <img className="tweet-avatar" src={tweet.profilePhoto} alt="Logo" />
 
-        <div className='tweet-body'>
-
-          <div className='tweet-title'>
-
-              <span className='tweet-title-author'>{name}</span>
-              <img className='tweet-title-author' src={verified}/>
-              <span className='tweet-title-details'>{user}</span>
-              <span className='tweet-title-details'>{separator}</span>   
-              <span className='tweet-title-details'>{timeToPublish}</span>
-
-
-
+      <div className="tweet-content">
+        <div className="tweet-body">
+          <div className="tweet-title">
+            <span className="tweet-title-author">{tweet.name}</span>
+            <img className="tweet-title-author" src={tweet.verified} />
+            <span className="tweet-title-details">{tweet.user}</span>
+            <span className="tweet-title-details">{tweet.separator}</span>
+            <span className="tweet-title-details">{tweet.timeToPublish}</span>
           </div>
-          <span className='tweet-text'>{tweetTextContent}</span>
-          <img className='tweet-image' src={tweetImage}/>
-          
-          <div className='tweet-actions'>
-            <img className='tweet-action' src={buttonReplies}/>
-            <img className='tweet-action' src={buttonRetweet}/>
-            <img className='tweet-action' src={buttonLike}/>
-            <img className='tweet-action' src={tweetShares}/>
+          <span className="tweet-text">{tweet.tweetTextContent}</span>
+          <div className="tweet-image">
+            <img src={tweet.tweetImage} />
           </div>
         </div>
+        <div className="tweet-actions">
+          <div className="tweet-action">
+            <img src={buttonReplies} alt="" />
+            <span>{tweet.replies}</span>
+          </div>
+          <div className="tweet-action">
+            <img src={buttonRetweet} alt="" />
+            <span>{tweet.retweet}</span>
+          </div>
+          <div className="tweet-action">
+            <img src={buttonLike} alt="" />
+            <span>{tweet.likes}</span>
+          </div>
+          <div className="tweet-action">
+            <img src={tweetShares} alt="" />
+          </div>
+          {/* <img className='tweet-action' src={buttonReplies}/>
+            <img className='tweet-action' src={buttonRetweet}/>
+            <img className='tweet-action' src={buttonLike}/>
+            <p className='tweet-action'>{likes}</p>
+            <img className='tweet-action' src={tweetShares}/> */}
+        </div>
       </div>
-
     </div>
   );
 }
