@@ -2,18 +2,21 @@ import React from "react";
 import Header from "../components/header.jsx";
 import TweetEditor from "../components/tweet-editor.jsx";
 import Tweets from "../components/tweets.jsx";
-import Tw from "../images/tweet-profile-photo.png";
+import CnnProfile from "../images/tweet-profile-photo.png";
+import NyProfile from "../images/NY-Profile-Photo.png";
+import TweeterProfile from "../images/Tweeter-Profile-Photo.png";
 
 // #1. timeline.
 
 function Home() {
+  console.log(TweeterProfile);
   const tweetsData = [
     {
       name: "CNN",
       user: "@CNN",
       separator: ".",
       timeToPublish: "7m.",
-      photoProfile: Tw,
+      photoProfile: CnnProfile,
       verified: "src/images/Verified.png",
       tweetTextContent:
         'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
@@ -27,7 +30,7 @@ function Home() {
       user: "@nytimes",
       separator: ".",
       timeToPublish: "2h.",
-      photoProfile: "src/images/NY-Profile-Photo.png",
+      photoProfile: NyProfile,
       verified: "src/images/Verified.png",
       tweetTextContent:
         "Gardening boomed during the pandemic. Six Black writers share how has helped them re-establish, and reimagine, a connection to cultivation and the land.",
@@ -41,7 +44,7 @@ function Home() {
       user: "@twitter",
       separator: ".",
       timeToPublish: "Oct 29.",
-      photoProfile: "src/images/Tweeter-Profile-Photo.png",
+      photoProfile: TweeterProfile,
       verified: "src/images/Verified.png",
       tweetTextContent: "BIG NEWS lol jk still Twitter.",
       likes: "267.1k",
@@ -55,12 +58,12 @@ function Home() {
       user: "@twitter",
       separator: ".",
       timeToPublish: "Oct 04.",
-      photoProfile: "src/images/Tweeter-Profile-Photo.png",
+      photoProfile: TweeterProfile,
       verified: "src/images/Verified.png",
       tweetTextContent: "hello litrally everyone.",
       likes: "3.3M",
-      replies : "118.7k",
-      retweet : "785.4k",
+      replies: "118.7k",
+      retweet: "785.4k",
       tweetImage: "",
     },
   ];

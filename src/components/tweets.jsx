@@ -41,11 +41,6 @@ function Tweets({ tweet }) {
           <div className="tweet-action">
             <img src={tweetShares} alt="" />
           </div>
-          {/* <img className='tweet-action' src={buttonReplies}/>
-            <img className='tweet-action' src={buttonRetweet}/>
-            <img className='tweet-action' src={buttonLike}/>
-            <p className='tweet-action'>{likes}</p>
-            <img className='tweet-action' src={tweetShares}/> */}
         </div>
       </div>
     </div>
