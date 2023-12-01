@@ -9,7 +9,7 @@ import tweetShares from "../images/Button-Shares.svg";
 function Tweets({ tweet }) {
   return (
     <div className="tweet">
-      <img className="tweet-avatar" src={tweet.profilePhoto} alt="Logo" />
+      <img className="tweet-avatar" src={tweet.photoProfile} alt="Logo" />
 
       <div className="tweet-content">
         <div className="tweet-body">
