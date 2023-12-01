@@ -9,7 +9,7 @@ import TweeterProfile from "../images/Tweeter-Profile-Photo.png";
 // #1. timeline.
 
 function Home() {
-  console.log(TweeterProfile);
+
   const tweetsData = [
     {
       name: "CNN",
