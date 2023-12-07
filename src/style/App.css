@@ -14,6 +14,48 @@ body{
     justify-content: space-between;
 }
 
+.left-sidebar {
+    padding-top: 25px;
+}
+
+/* .right-sidebar {
+    
+} */
+
+.left-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-sidebar li {
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}
+
+.link-image {
+    width: 20px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.link-text {
+    font-weight: bold;
+    /* align-items: center; */
+    height: auto;
+
+}
+
+.Link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.tweet-btn-Xl {
+    width: 150px;
+}
+
 .timeline {
     flex: 0 0 800px;
     font-family: 'Inter', sans-serif;

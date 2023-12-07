@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "../components/header.jsx";
 import TweetEditor from "../components/tweet-editor.jsx";
+import SideBar from "../components/sideBar.jsx"
 import Tweets from "../components/tweets.jsx";
 import CnnProfile from "../images/tweet-profile-photo.png";
 import NyProfile from "../images/NY-Profile-Photo.png";
 import TweeterProfile from "../images/Tweeter-Profile-Photo.png";
+// import SideBar from "../components/sideBar.jsx";
 
 // #1. timeline.
 
@@ -73,11 +75,20 @@ function Home() {
   });
 
   return (
-    <main className="timeline">
-      <Header />
-      <TweetEditor />
+    <>
+
+      <aside className="sidebar">
+        <SideBar />
+      </aside>
+
+      <main className="timeline">
+        <Header />
+        <TweetEditor />
       {tweetsList}
-    </main>
+      </main>
+
+    </>
+    
   );
 }
 
