@@ -10,23 +10,15 @@ import lists from "../images/Lists.png";
 import profile from "../images/Profile.png";
 import more from "../images/More.png";
 import tweetBtnXl from "../images/Tweet-Buton-Xl.png";
-import searchIcon from "../images/Search.png";
+import searchIcon from "../images/Search.svg";
 
 const Trends = () => {
   return (
     <div className="right-sidebar">
-      <nav>
-        <ul>
-          <li className="search-container">
-            <form action="/search">
-              <input type="text" placeholder="Recherche..." />
-              <button type="submit">
-                <i class="fa fa-search search-icon"></i>
-              </button>
-            </form>
-          </li>
-        </ul>
-      </nav>
+      <form className="search">
+        <img src={searchIcon}/>
+        <input type="text" placeholder="Search" />
+      </form>
     </div>
   );
 };

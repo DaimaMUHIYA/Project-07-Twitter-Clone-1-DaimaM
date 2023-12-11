@@ -17,9 +17,21 @@ body {
   padding-top: 25px;
 }
 
-/* .right-sidebar {
-    
-} */
+.right-sidebar form.search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #2f3336;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.right-sidebar form.search input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
 
 .left-sidebar ul {
   list-style: none;
