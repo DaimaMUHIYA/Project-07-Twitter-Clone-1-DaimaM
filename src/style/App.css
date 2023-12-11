@@ -14,15 +14,19 @@ body {
 }
 
 .left-sidebar {
-  padding-top: 25px;
+  padding-top: 30px;
+}
+
+.right-sidebar {
+    padding-top: 20px;
 }
 
 .right-sidebar form.search {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    /* align-items: center; */
+    gap: 1rem;
     background-color: #2f3336;
-    padding: 1rem;
+    padding: 10px;
     border-radius: 50px;
 }
 
@@ -31,6 +35,12 @@ body {
     border: none;
     color: white;
     outline: none;
+    align-items: center;
+}
+
+.right-sidebar form.search img {
+    width: 15px;
+    height: 15px;
 }
 
 .left-sidebar ul {
