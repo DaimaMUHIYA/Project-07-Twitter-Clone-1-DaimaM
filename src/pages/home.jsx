@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../components/header.jsx";
 import TweetEditor from "../components/tweet-editor.jsx";
-import SideBar from "../components/sideBar.jsx"
+import SideBar from "../components/sideBar.jsx";
+import Trends from "../components/trends.jsx";
 import Tweets from "../components/tweets.jsx";
 import CnnProfile from "../images/tweet-profile-photo.png";
 import NyProfile from "../images/NY-Profile-Photo.png";
@@ -76,19 +77,20 @@ function Home() {
 
   return (
     <>
-
-      <aside className="sidebar">
+      {/* <aside className="sidebar"> */}
         <SideBar />
-      </aside>
+      {/* </aside> */}
 
       <main className="timeline">
         <Header />
         <TweetEditor />
-      {tweetsList}
+        {tweetsList}
       </main>
 
+      {/* <aside className="right-sidebar"> */}
+        <Trends />
+      {/* </aside> */}
     </>
-    
   );
 }
 
