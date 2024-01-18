@@ -5,6 +5,7 @@ body {
   color: white;
   margin: 0 auto;
   max-width: 1800px;
+  font-family: Helvetica;
 }
 
 #root {
@@ -13,34 +14,10 @@ body {
   justify-content: space-between;
 }
 
+/* left-sidebar */
+
 .left-sidebar {
   padding-top: 30px;
-}
-
-.right-sidebar {
-    padding-top: 20px;
-}
-
-.right-sidebar form.search {
-    display: flex;
-    /* align-items: center; */
-    gap: 1rem;
-    background-color: #2f3336;
-    padding: 10px;
-    border-radius: 50px;
-}
-
-.right-sidebar form.search input {
-    background-color: transparent;
-    border: none;
-    color: white;
-    outline: none;
-    align-items: center;
-}
-
-.right-sidebar form.search img {
-    width: 15px;
-    height: 15px;
 }
 
 .left-sidebar ul {
@@ -74,13 +51,140 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
+  flex-direction: column;
 }
 
 .tweet-btn-Xl {
   width: 150px;
 }
 
-/* search bar */
+/* right-sidebar */
+
+.right-sidebar {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.right-sidebar form.search {
+  display: flex;
+  gap: 1rem;
+  background-color: #2f3336;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.right-sidebar form.search input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  align-items: center;
+}
+
+.right-sidebar form.search img {
+  width: 15px;
+  height: 15px;
+}
+
+.right-sidebar ul {
+  list-style: none;
+}
+
+.right-sidebar .trendsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #2f3336;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.right-sidebar .trendsTitle {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+}
+
+.right-sidebar .trendsTitle span {
+  color: #e7e9ea;
+  font-weight: bold;
+  height: auto;
+}
+
+.right-sidebar .trendsTitle img {
+  width: 20px;
+  height: 15px;
+}
+
+.right-sidebar a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.trendingOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.trendingOne-text {
+  color: grey;
+}
+
+.squid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.squid {
+  color: #e7e9ea;
+  font-weight: bold;
+}
+
+.number-tweet {
+  color: grey;
+}
+
+.showMore {
+  color: #1d9bf0;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.right-sidebar .followList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #2f3336;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.right-sidebar .followList span {
+  font-weight: bold;
+}
+
+/* .right-sidebar a .turkey-text {
+  color: 35383c;
+} */
+
+/* .trends-text {
+  font-weight: bold;
+  height: auto;
+} */
 
 .timeline {
   flex: 0 0 800px;
