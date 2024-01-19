@@ -3,6 +3,7 @@ import buttonReplies from "../images/Button-Comment.svg";
 import buttonRetweet from "../images/Button-Retweet.svg";
 import buttonLike from "../images/Button-Likes.svg";
 import tweetShares from "../images/Button-Shares.svg";
+import { FiHeart } from "react-icons/fi";
 
 // #4. tweets.
 
@@ -35,7 +36,8 @@ function Tweets({ tweet }) {
             <span>{tweet.retweet}</span>
           </div>
           <div className="tweet-action">
-            <img src={buttonLike} alt="" />
+            {/* <img src={buttonLike} alt="" /> */}
+            <FiHeart />
             <span>{tweet.likes}</span>
           </div>
           <div className="tweet-action">

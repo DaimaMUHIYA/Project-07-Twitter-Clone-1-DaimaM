@@ -12,7 +12,6 @@ import TweeterProfile from "../images/Tweeter-Profile-Photo.png";
 // #1. timeline.
 
 function Home() {
-
   const tweetsData = [
     {
       name: "CNN",
@@ -78,7 +77,7 @@ function Home() {
   return (
     <>
       {/* <aside className="sidebar"> */}
-        <SideBar />
+      <SideBar />
       {/* </aside> */}
 
       <main className="timeline">
@@ -88,7 +87,7 @@ function Home() {
       </main>
 
       {/* <aside className="right-sidebar"> */}
-        <Trends />
+      <Trends />
       {/* </aside> */}
     </>
   );

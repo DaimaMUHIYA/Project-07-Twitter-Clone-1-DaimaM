@@ -1,6 +1,7 @@
 import React from "react";
 import meta from "../images/Meta.png";
 import { Link } from "react-router-dom";
+import { FaSchool } from "react-icons/fa6";
 
 // #3. tweet-editor.
 
